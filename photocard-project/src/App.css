@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom, rgb(75, 221, 226), white);
+  background: radial-gradient(circle, rgb(75, 221, 226), white);
   font-family: Arial, sans-serif;
 }
 
@@ -20,6 +20,7 @@ body {
   width: 100%;
   max-width: 500px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-color: cadetblue;
 }
 
 /* Content inside the card */
