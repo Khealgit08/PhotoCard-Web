@@ -6,7 +6,7 @@ function App() {
     <div className="container">
       <div className="content">
         <img className="photo" src="/Kheal.png" alt="my photo" />
-        <h2>Jomari F. Arsula</h2>
+        <h2>Michael B. Castil</h2>
         <h4>2nd Year IT Student</h4>
         <h4>USTP-CDO</h4>
         <hr />
