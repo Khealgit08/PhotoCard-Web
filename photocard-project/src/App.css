@@ -1,0 +1,80 @@
+/* Full-page center background */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(75, 221, 226), white);
+  font-family: Arial, sans-serif;
+}
+
+/* Card container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to top, rgb(75, 221, 226), white);
+  padding: 5rem;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Content inside the card */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Profile photo */
+.photo {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 20%;
+  border-style: solid;
+  border-color:cadetblue;
+}
+
+/* Headings */
+h2,
+h4 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: black;
+}
+
+/* Horizontal line */
+hr {
+  display: block;
+  width: 150%;
+  border: 1px solid black;
+  border-radius: 1%;
+  margin-left: -25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Icon wrapper */
+.plat {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 2rem;
+  color: black;
+}
+
+/* Icon hover effect */
+.plat a {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.plat a:hover {
+  color: #d1d5db; /* tailwind's gray-300 */
+}
