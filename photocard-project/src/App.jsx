@@ -11,9 +11,9 @@ function App() {
         <h4>USTP-CDO</h4>
         <hr />
         <div className="flex space-x-6 text-2xl plat">
-          <a href="#" className="hover:text-gray-300"><FaGithub /></a>
-          <a href="#" className="hover:text-gray-300"><FaFacebook /></a>
-          <a href="#" className="hover:text-gray-300"><FaInstagram /></a>
+          <a href="https://github.com/Khealgit08" className="hover:text-gray-300"><FaGithub /></a>
+          <a href="https://www.facebook.com/kheal.zen.maverick" className="hover:text-gray-300"><FaFacebook /></a>
+          <a href="https://www.instagram.com/kerszaku?igsh=MTE2NnlpN2NjZ2Iyag==" className="hover:text-gray-300"><FaInstagram /></a>
         </div>
       </div>
     </div>
